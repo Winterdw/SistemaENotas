@@ -1,0 +1,25 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+section ul {
+    display: table;
+    justify-content: space-between;
+    list-style-type: circle;
+    vertical-align: bottom
+}
+
+section li {
+    padding: 5px;
+}
+
+a {
+    color: #696969;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #5BBE42;
+}
